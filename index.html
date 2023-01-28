@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triagem virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> Triagem virtual</h1>
+
+<section>
+
+       <p><strong> Digite sua pressão arterial:</strong> </p>
+        <p>Sistólica (Maior) <input type="number" id="PA_S_tx"></p>
+        <p>Diastólica (Menor) <input type="number" id="PA_D_tx"></p>
+        
+        <p><strong> Digite seus batimentos cardíacos:</strong></p>
+        <p>Batimentos <input type="number" id="tx_fc"></p>
+    
+        <p><strong> Digite sua saturação: </strong></p>
+        <p>Saturação <input type="number" id="tx_sat"></p>
+
+        <p><strong> Digite sua temperatura: </strong></p>
+        <p>Temperatura <input type="number" id="tx_tem"></p>
+        <input type="button" value="Verificar" onclick="verificar()">
+
+        <div>
+            <div id="div_r">
+        <div id="tx_res"></div>
+        <div id="tx_res1"></div>
+        <div id ="tx_res2"></div>
+        <div id ="tx_res3"></div>
+        <div id ="tx_res4"></div>
+            </div>
+       <!-- <div id ="tx_res5"></div> -->
+
+       
+    <footer>
+       Desenvolvido por Hyan Guerra
+    </footer>
+
+        </div>
+    
+  
+      
+  
+        <!-- 
+        
+        <p><strong> Digite sua glicemia (dextro):
+        </strong></p> Está em jejum há mais de 6 horas? 
+        <input type="radio" name="jejum" id="_jejum"> Sim
+        <input type="radio" name="jejum" id="_jejum"> Não  
+        <p>Glicemia (dextro) <input type="number" id="tx_gli"></p>
+        <input type="button" value="Verificar" onclick="verificar()"> -->
+   
+        
+
+</section>  
+
+    
+
+<script src="triagem.js"></script>
+</body>
+</html>
